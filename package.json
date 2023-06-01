@@ -1,8 +1,8 @@
 {
-  "name": "galaktica-react-test",
+  "name": "galactica-test-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://KostiantynSoloviov.github.io/Galaktica-React-Test",
+  "homepage": "https://KostiantynSoloviov.github.io/galactica-test-app",
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.5",
     "@testing-library/jest-dom": "^5.16.5",
@@ -45,5 +45,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^5.0.0",
+    "s": "^1.0.0"
   }
 }
