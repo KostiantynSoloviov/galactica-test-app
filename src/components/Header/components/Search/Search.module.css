@@ -1,0 +1,21 @@
+.search {
+    background: #222325;
+    padding: 12px 19px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    min-width: 380px;
+}
+
+.search__button {
+    background: #222325;
+    margin-right: 16px;
+    cursor: pointer;
+}
+
+.search__input {
+    background: #222325;
+    color: #fff;
+    outline: none;
+    width: 80%;
+}

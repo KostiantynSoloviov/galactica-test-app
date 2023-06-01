@@ -1,0 +1,41 @@
+.user {
+    display: flex;
+    align-items: center;
+    gap: 13px;
+}
+
+.user__info_name {
+    font-weight: 500;
+    line-height: 100%;
+    margin-bottom: 4px;
+}
+
+.user__info_role {
+    color: #939495;
+}
+
+.user__photo {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    background: #28292b;
+}
+
+.avatar {
+    width: 40px;
+    height: 40px;
+}
+
+.status {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 12px;
+    height: 12px;
+    background: #67D37F;
+    right: 0;
+    bottom: 0;
+    border-radius: 50%;
+    border: 2px solid #28292B;
+}

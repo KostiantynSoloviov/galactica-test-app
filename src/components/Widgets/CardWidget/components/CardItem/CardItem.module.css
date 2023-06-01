@@ -1,0 +1,82 @@
+.card {
+    width: 364px;
+    padding: 1rem;
+    border-radius: 10px;
+    background-color: #28292C;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.add__button {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    cursor: pointer;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.title {
+    color: white;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.info__area {
+    display: flex;
+    padding: 5px 10px;
+    margin-block: 10px;
+    align-items: center;
+    border-radius: 10px;
+    justify-content: space-between;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.dots {
+    cursor: pointer;
+}
+
+.info_el {
+    display: flex;
+    align-items: center;
+}
+
+.text {
+    color: white;
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+.images {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 8px;
+}
+
+.img {
+    width: 100%;
+}
+
+.image__btn_element {
+    position: relative;
+    width: 100%;
+}
+
+.images__btn {
+    background-color: #000000B2;
+    position: absolute;
+    top: 0px;
+    height: 66px;
+    width: 100%;
+    display: flex;
+    cursor: pointer;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+}

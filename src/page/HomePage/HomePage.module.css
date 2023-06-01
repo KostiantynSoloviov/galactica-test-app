@@ -1,0 +1,22 @@
+.home {
+    display: flex;
+    gap: 24px;
+}
+
+.home__overview {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.home__progress {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.home__card {
+    width: 100%;
+    margin-top: 32px;
+}

@@ -1,0 +1,12 @@
+.wrapper {
+    display: flex;
+    gap: 1px;
+}
+
+.container {
+    flex: 1 1 auto;
+}
+
+.main {
+    padding: 32px;
+}

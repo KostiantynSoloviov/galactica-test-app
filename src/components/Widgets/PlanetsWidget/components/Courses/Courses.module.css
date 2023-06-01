@@ -1,0 +1,28 @@
+.wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 130px;
+    height: 130px;
+    cursor: pointer;
+}
+
+.image {
+    position: absolute;
+    max-width: 120px;
+    max-height: 120px;
+}
+
+.astronaut__image {
+    position: absolute;
+    top: -15%;
+    left: 38%;
+    z-index: 2;
+}
+
+.progress__wrapper {
+    position: absolute;
+    width: 130px;
+    height: 130px;
+}
